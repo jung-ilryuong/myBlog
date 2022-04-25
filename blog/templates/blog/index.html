@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+</head>
+<body>
+<h1>gggggggggggg</h1>
+
+블로그 글입니다
+
+{% for i in posts %}
+
+<h2> {{i.title}}</h2>
+<h4> {{i.created_at}}</h4>
+<h3> {{i.content}}</h3>
+{% endfor %}
+</body>
+</html>
